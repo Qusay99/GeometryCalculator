@@ -1,4 +1,9 @@
 export class GeometryCalculator{
+    public static availableMethods(obj: any){
+        return Object.getOwnPropertyNames(obj).filter(function(property) {
+            return typeof obj[property] == "function";
+        });
+    }
     public static rectangle(a: number, b: number){
         let perimeter = 2*(a+b);
         let surface = a*b;
