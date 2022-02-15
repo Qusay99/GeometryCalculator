@@ -6,7 +6,7 @@ Firstly, you have to import the module using:
 ```ts
 import {GeometryCalculator} from 'https://deno.land/x/geometry_calculator@v0.0.6/mod.ts'
 ```
-#### Please make sure that you are importing the right version/release of the module!
+#### **Please make sure that you are importing the right version/release of the module!**
 
 Then you can use the following command to see which methods recpectivly geometric shapes are considerd in the module yet.
 ```ts
