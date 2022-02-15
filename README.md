@@ -11,3 +11,22 @@ Then you can use the following command to see which methods recpectivly geometri
 console.log(GeometryCalculator.availableMethods(GeometryCalculator));
 ```
 ## Usage Example
+### 1. Calculate the perimeter and the surface of a rechtangle:
+
+```ts
+console.log(GeometryCalculator.rectangle(5,4));
+```
+##### Output:
+```
+Perimeter:      18      Surface:        20
+```
+
+### 2. Calculate the surface and the volume of a cuboid:
+
+```ts
+console.log(GeometryCalculator.cuboid(6,3,5));
+```
+##### Output:
+```
+Surface:        126      Volume:        90
+```
