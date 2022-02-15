@@ -18,9 +18,9 @@ export class GeometryCalculator{
 
         return result
     }
-    public static parallelogram(a: number, b: number, h: number){
+    public static parallelogram(a: number, b: number, ha: number){
         let perimeter = 2*(a+b);
-        let surface = a*h;
+        let surface = a*ha;
         let result: string = "Perimeter:\t" + perimeter + "\tSurface:\t" + surface;
 
         return result
