@@ -10,6 +10,8 @@ Then you can use the following command to see which methods recpectivly geometri
 ```ts
 console.log(GeometryCalculator.availableMethods(GeometryCalculator));
 ```
+#### Please pay attention to the required number of arguments to avoid getting error messages!
+
 ## Usage Example
 ### 1. Calculate the perimeter and the surface of a rechtangle:
 
