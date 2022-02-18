@@ -4,7 +4,7 @@ This is a module that can calculate the perimeter, surface or even the volume of
 ## How to use this module
 Firstly, you have to import the module using:
 ```ts
-import {GeometryCalculator} from 'https://deno.land/x/geometry_calculator@v1.0.1/mod.ts'
+import {GeometryCalculator} from 'https://deno.land/x/geometry_calculator@v1.0.3/mod.ts'
 ```
 #### **Please make sure that you are importing the right version/release of the module!**
 
