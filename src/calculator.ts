@@ -5,7 +5,7 @@ export class GeometryCalculator{
         });
     }
     public static rectangle(a: number, b: number){
-        let perimeter = (2*(a+b)).toFixed(3);
+        let perimeter = ((2*a)+(2*b)).toFixed(3);
         let surface = (a*b).toFixed(3);
         let result: string = "Perimeter:\t" + perimeter + "\tSurface:\t" + surface;
 
@@ -19,7 +19,7 @@ export class GeometryCalculator{
         return result
     }
     public static parallelogram(a: number, b: number, ha: number){
-        let perimeter = (2*(a+b)).toFixed(3);
+        let perimeter = ((2*a)+(2*b)).toFixed(3);
         let surface = (a*ha).toFixed(3);
         let result: string = "Perimeter:\t" + perimeter + "\tSurface:\t" + surface;
 
